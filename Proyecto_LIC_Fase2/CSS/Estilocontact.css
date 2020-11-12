@@ -1,0 +1,224 @@
+.form1
+{
+    width: 50%;
+    height:25px;
+    background-color: whitesmoke;
+}
+#contact
+{
+    color:rgb(204, 176, 19)
+}
+@media screen and (max-width:480px){
+    .foot1,p{
+        float: none;
+        text-align: left;
+        width: 60%;
+        
+    }
+    .first2 a{
+       display: inline-block;
+       justify-content: space-evenly;
+       text-align: center;
+       padding-left: 8%;
+       padding-right: 8%;
+       
+    }
+    #FirstToReserv{
+        float: none;
+        width: 110%;
+        height: auto;
+        padding: 1%;
+        margin-left: 15%;
+        text-align: justify;
+    }
+    #SecondToReserv{
+        float: none;
+        width: 129%;
+        margin-left: 1px;
+        padding-left: 0px;
+        text-align: justify;
+
+    }
+    .foot2{
+        width: 90%;
+    }
+    .ima{
+        margin-left: 6% ;
+        width: 80%;
+    }
+    h3{
+        text-align: center;
+        margin-right: 25%;
+    }
+    #primaryS #horarios p{
+        text-align: center;
+        margin-left: 8%;
+    }
+    #primaryS #ubicacion p{
+        text-align: center;
+        margin-left: 8%;
+    }
+    #primaryS #FirstToReserv #formu P{
+        text-align: center;
+        margin-right: 15%;
+        
+    }
+    #primaryS #FirstToReserv #formu form .form1{
+        width: 60%;
+        text-align: center;
+    }
+    #primaryS #FirstToReserv #formu form p img{
+        margin-right: 20%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 720px) {
+	.foot1,p{
+        float: none;
+        text-align: center;
+        width: 60%;
+        
+    }
+    .first2 a{
+       display: inline-block;
+       justify-content: space-evenly;
+       text-align: center;
+       padding-left: 2%;
+       padding-right: 2%;
+       
+    }
+    #FirstToReserv{
+        float: none;
+        width: 110%;
+        height: auto;
+        padding: 1%;
+        margin-left: 15%;
+        text-align: justify;
+    }
+    #SecondToReserv{
+        float: none;
+        width: 129%;
+        margin-left: 1px;
+        padding-left: 0px;
+        text-align: justify;
+
+    }	
+	
+	p {
+		text-align: justify;
+    }
+    .foot2{
+        width: 70%;
+    }
+    .ima{
+        margin-left: 5% ;
+        width: 80%;
+    }
+	.form1
+    {
+       width: 60%;
+       height:25px;
+       background-color: whitesmoke;
+    }	
+    #primaryS #FirstToReserv #formu form p img{
+        margin-right: 4%;
+    }
+    #primaryS #SecondToReserv #horarios p{
+        margin-left: 8%;
+    }
+    #primaryS #SecondToReserv #ubicacion p{
+        margin-left: 8%;
+    }
+    .foot1 p{
+        text-align: left;
+        margin: 0;
+    }
+
+}
+
+
+@media (min-width: 721px) and (max-width: 1080px) {
+    .form1
+{
+    width: 60%;
+    height:25px;
+    background-color: whitesmoke;
+}
+.primarios{
+    width: 20%;
+
+}
+    .foot1,p{
+        float: none;
+        text-align: center;
+        width: 60%;
+        
+    }
+    .first2 a{
+       display: inline-block;
+       justify-content: space-evenly;
+       text-align: center;
+       padding-left: 8%;
+       padding-right: 8%;
+       
+    }
+    #FirstToReserv{
+        float: none;
+        width: 110%;
+        height: auto;
+        padding: 1%;
+        margin-left: 15%;
+        text-align: justify;
+    }
+    #SecondToReserv{
+        float: none;
+        width: 129%;
+        margin-left: 1px;
+        padding-left: 0px;
+        text-align: justify;
+
+    }
+    
+    p {
+        text-align: justify;
+    }
+    .foot2{
+        width: 70%;
+    }
+    .ima{
+        margin-left: 3% ;
+        width: 90%;
+    }
+
+    .form1
+    {
+       width: 62%;
+       height:25px;
+       background-color: whitesmoke;
+    }   
+    #formu p{
+        text-align: center;
+    }
+    #formu form .form1{
+        text-align: center;
+    }
+    #formu p img{
+        margin-right: 5%;
+    }
+    #SecondToReserv #horarios h3{
+        margin-left: 30%;
+    }
+    #SecondToReserv #horarios p{
+        margin-left: 27%;
+    }
+    #SecondToReserv #ubicacion h3{
+        margin-left: 30%;
+    }
+    #SecondToReserv #ubicacion p{
+        margin-left: 8%;
+    }
+    #SecondToReserv #ubicacion .ima img{
+        width: 80%;
+    }
+
+}
