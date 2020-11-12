@@ -1,0 +1,226 @@
+#primaryS
+{
+    margin:0;
+    background:linear-gradient(#5c3821de,rgb(49,29,13) 80%);
+    overflow: hidden;
+}
+#Reserv1
+{
+    margin:1%;
+    padding:1%;
+    float:left;
+    width:46%;
+    height:auto;
+    text-align: justify;
+}
+#primaryS #Reserv1 .form2 form p{
+    margin-left: 10%;
+    text-align: left;
+}
+#primaryS #Reserv2 .form2 form p{
+    text-align: left;
+}
+#Reserv2
+{
+    margin:1%;
+    padding:1%;
+    float:right;
+    width:46%;
+    height:auto;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 17pt;
+}
+.reserv3
+{
+    width: 50%;
+    height:25px;
+    background-color: whitesmoke;
+}
+@media screen and (max-width:480px){
+    .foot1 {
+        float: inline-start;
+        text-align: left;
+        width: 60%;
+    }
+    .foot2{
+        width: 100%;
+    }
+    .first2 a{
+        display: inline-block;
+        justify-content: space-evenly;
+       text-align: center;
+       padding-left: 8%;
+       padding-right: 8%;
+       
+    }
+    #Reserv1
+{
+    justify-content: center;
+    margin-left:10%;
+    padding:1%;
+    float:none;
+    width:90%;
+    height:auto;
+    text-align: justify;
+}
+#Reserv2
+{
+    margin-left:10%;
+    margin-bottom: 5%;
+    padding:1%;
+    float:none;
+    width:90%;
+    height:auto;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 17pt;
+}
+   .reserv3{
+       width: 80%;
+   }
+   p{
+       text-align: justify;
+   }
+   .form2 form p{
+       text-align: center;
+       margin-left: 12%;
+   }
+   .form2 form .reserv3{
+       text-align: center;
+    
+   }
+   .form2 form .reserv3  select{
+    text-align: center;
+ 
+}
+
+}
+
+@media (min-width: 481px) and (max-width: 720px) {
+    .foot1 {
+    float: inline-start;
+    text-align: left;
+    width: 85%;
+}
+.foot2{
+    width: 100%;
+}
+.first2 a{
+    display: inline-block;
+    justify-content: space-evenly;
+   text-align: center;
+   padding-left: 8%;
+   padding-right: 8%;
+   
+}
+    #Reserv1
+{
+    justify-content: center;
+    margin-left:10%;
+    padding:1%;
+    float:none;
+    width:90%;
+    height:auto;
+    text-align: justify;
+}
+#Reserv2
+{
+    margin-left:10%;
+    margin-bottom: 8%;
+    padding:1%;
+    float:none;
+    width:95%;
+    height:auto;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 18pt;
+}
+.reserv3{
+    width: 80%;
+}
+p{
+    text-align: justify;
+}
+.form2 form p{
+    text-align: center;
+    margin-left: 12%;
+}
+.form2 form .reserv3{
+    text-align: center;
+ 
+}
+.form2 form .reserv3  select{
+ text-align: center;
+
+}
+#Reserv2 .form2 form .reserv3{
+    width: 76%;
+}
+    
+}
+
+@media (min-width: 721px) and (max-width: 1080px) {
+        .foot1 {
+        float: inline-start;
+        text-align: left;
+        width: 85%;
+    }
+    .foot2{
+        width: 100%;
+    }
+    .first2 a{
+        display: inline-block;
+        justify-content: space-evenly;
+       text-align: center;
+       padding-left: 8%;
+       padding-right: 8%;
+       
+    }
+        #Reserv1
+    {
+        justify-content: center;
+        margin-left:10%;
+        padding:1%;
+        float:none;
+        width:90%;
+        height:auto;
+        text-align: justify;
+    }
+    #Reserv2
+    {
+        margin-left:10%;
+        margin-bottom: 8%;
+        padding:1%;
+        float:none;
+        width:95%;
+        height:auto;
+        text-align: justify;
+        font-weight: bold;
+        font-size: 18pt;
+    }
+    .reserv3{
+        width: 80%;
+    }
+    p{
+        text-align: justify;
+    }
+        
+    }
+    .form2 form p{
+        text-align: center;
+        margin-left: 12%;
+    }
+    .form2 form .reserv3{
+        text-align: center;
+     
+    }
+    .form2 form .reserv3  select{
+     text-align: center;
+    
+    }
+    #Reserv2 .form2 form .reserv3{
+        width: 76%;
+    }
+       
+    

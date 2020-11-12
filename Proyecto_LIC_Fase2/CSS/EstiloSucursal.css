@@ -1,0 +1,208 @@
+nav
+{
+    background-image: url(img/madera2.jpg);
+    overflow: hidden;
+}
+#primaryS
+{
+    margin:0;
+    background-color:#5c3821de;
+    overflow: hidden;
+}
+nav .first2 .primarios{
+    background: transparent;
+    font-size: 30px;
+}
+nav .first2 .primarios:hover{
+    background: rgb(55, 96, 129);
+}
+#FirstToReserv
+{
+    margin:1%;
+    padding:1%;
+    float:left;
+    width:50%;
+    height:auto;
+    text-align: justify;
+}
+#SecondToReserv
+{
+    margin:1%;
+    padding:1%;
+    float:right;
+    width:36%;
+    height:auto;
+    text-align: center;
+}
+#ubicacion
+{
+    margin-top: 2%;
+}
+#ubicacion img
+{
+    width:80%;
+    margin:0 auto;
+}
+#historia p, #horarios p, #ubicacion p{color:white;}
+#historia h3, #horarios h3, #ubicacion h3{color:rgb(204, 176, 19);}
+hr
+{
+    border:none;
+    height:2.5px;
+    background-color:rgb(204, 176, 19);
+}
+@media screen and (max-width:480px){
+    .primarios{
+        text-align: center;
+        display: inline;
+        margin-left: 1%;
+        margin-right: 1%;
+        padding-left: 1%;
+        padding-right: 1%;
+
+
+    }
+    .first2 a{
+        display: inline-block;
+        justify-content: space-evenly;
+       text-align: center;
+       padding-left: 8%;
+       padding-right: 8%;
+       
+    }
+    .footer{
+        display: flex;
+    }
+    .foot1{
+        float: left;
+        text-align: left;
+        width: 60%;
+        margin-right: 0;
+        
+    }
+    .foot2 img{
+        float: right;
+        width: 40%;
+
+      
+       
+    }
+    #primaryS
+    {
+     float: none;
+    } 
+    #FirstToReserv{
+        float: none;
+        width: 110%;
+        height: auto;
+        padding: 1%;
+        margin-left: 5%;
+        text-align: justify;
+    }
+    #SecondToReserv{
+        float: none;
+        width: 129%;
+        margin-left: 1px;
+        
+        padding-left: 0px;
+        text-align: justify;
+
+    }
+    #primaryS #horarios p{
+        text-align: center;
+        margin-left: 8%;
+    }
+    #primaryS #ubicacion p{
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 30%;
+    }
+    #primaryS #FirstToReserv #formu P{
+        text-align: center;
+        margin-right: 15%;
+        
+    }
+    #primaryS #SecondToReserv #horarios h3{
+        margin-right: 23%;
+    }
+    #primaryS #SecondToReserv #horarios p{
+        margin-right: 30%;
+    }
+    #primaryS #FirstToReserv #formu form .form1{
+        width: 60%;
+        text-align: center;
+    }
+    h3{
+        text-align: center;
+        margin-right: 25%;
+    }
+    #primaryS #FirstToReserv #historia h3{
+        margin-right: 20%;
+    }
+    #primaryS #FirstToReserv #historia p{
+        text-align: center;
+        margin-right: 20%;
+    }
+}
+@media (min-width:481px) and (max-width:720px){
+    #FirstToReserv{
+        float: none;
+        width: 110%;
+        height: auto;
+        padding: 1%;
+        margin-left: 0%;
+        margin-right: 50%;
+        text-align: center;
+    }
+    #SecondToReserv{
+        float: none;
+        width: 129%;
+        margin-left: 1px;
+        padding-left: 0px;
+        text-align: justify;
+
+    }
+    #primaryS #horarios p{
+        text-align: center;
+        margin-right: 22%;
+    }
+    #primaryS #ubicacion p{
+        text-align: center;
+        margin-right: 22%;
+    }
+    #primaryS #FirstToReserv #formu P{
+        text-align: center;
+        margin-right: 15%;
+        
+    }
+    #primaryS #SecondToReserv #horarios h3{
+        margin-right: 23%;
+    }
+    #primaryS #FirstToReserv #formu form .form1{
+        width: 60%;
+        text-align: center;
+    }
+    h3{
+        text-align: center;
+        margin-right: 25%;
+    }
+    #primaryS #FirstToReserv #historia h3{
+        margin-right: 10%;
+    }
+    #primaryS #FirstToReserv #historia p{
+        text-align: center;
+        margin-right: 20%;
+        margin-left: 10%;
+    }
+}
+@media (min-width:721px) and (max-width:1080px){
+    #primaryS #ubicacion img{
+        width: 100%;
+        left: -30px;
+    }
+    #primaryS #FirstToReserv #historia h3{
+        text-align: center;
+    }
+}
+
+

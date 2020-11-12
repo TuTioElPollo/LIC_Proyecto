@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Patrick+Hand&family=Yanone+Kaffeesatz:wght@500&display=swap');
+body
+{
+    background-color: rgb(22, 22, 22);
+    font-family: 'Patrick Hand', cursive;
+    font-size: 17pt;
+    font-weight: bold;
+}
+nav
+{
+    background-image: url(img/madera2.jpg);
+    overflow: hidden;
+}
+nav .first2 .primarios{
+    background: transparent;
+}
+div[class^="col-"]
+{
+    margin-top: 2px;
+}
+.first
+{
+    float:left;
+    margin-top: 1%;
+    text-align: center;
+    width:30%;
+}
+.first img
+{
+    width:50%;
+}
+.first2
+{
+    float:right;
+    margin-top: 4%;
+    padding:2%;
+    width:66%;
+    text-align: right;
+}
+.primarios
+{ 
+  margin:0.5%;
+  padding:0.5%;
+  border-radius: 3px;
+  text-decoration: none;
+}
+p
+{
+    color:white;
+    font-weight: bold;
+}
+.primarios{ 
+    color:white;
+    font-size: 25px;
+    transition: 0.6s;
+}
+.primarios:hover
+{ 
+    background: transparent ; 
+    color:rgb(255, 254, 254); 
+    text-decoration: none;
+    border-bottom: rgb(201, 131, 2) solid 4px;
+}
+.carousel-inner h3{
+    color: white;
+    font-size: 40px;
+}
+.carousel-inner{
+    margin-left: 10%;
+    width: 80%;
+}
+#cslide
+{
+    margin: 0 auto;
+    width:75%;
+    height:500px;
+}
+h3
+{
+    color:black;
+    font-weight: bold;
+}
+#second
+{
+    background-image: url(img/image.jpg);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#third
+{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-image: url(img/image.jpg);
+    text-align: center;
+}
+#third a
+{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    background: linear-gradient(rgb(155, 102, 4), rgb(231, 172, 95));
+    border: chocolate solid 2px;
+    font-family:'Patrick Hand', cursive;
+}
+#third a:hover{
+    background: linear-gradient(rgb(161, 111, 18), rgb(197, 148, 84));
+    border: rgb(187, 92, 24) solid 2px;
+}
+footer
+{
+    background:rgb(22, 22, 22);
+    width:100%;
+}
+footer p{ color:white;}
+.foot1
+{
+    padding:7px;
+    float:left;
+}
+.foot2
+{
+    padding:3px;
+    padding-top: 7px;
+    float:right;
+    text-align: right;
+}
+@media screen and (min-width:481px) and (max-width:768px)
+{
+    body
+    {
+        background-color: rgb(22, 22, 22);
+        font-family: 'Patrick Hand', cursive;
+        font-size: 16pt;
+        font-weight: bold;
+    }
+    .first
+    {
+        float:none;
+        width:100%;
+        margin-top: 1%;
+        text-align: center;
+    }
+    .first img
+    {
+        width:35%;
+    }
+    .first2
+    {
+        float:none;
+        width:100%;
+        margin-top: 4%;
+        padding:2%;
+        text-align: center;
+    }
+    .first2 a{ padding-right: 15px;}
+    .foot1
+    {
+        padding:5px;
+        float:left;
+        width:40%;
+    }
+    .foot2
+    {
+        padding:2px;
+        padding-top: 6px;
+        float:right;
+        width:46%;
+        text-align: right;
+    }
+}
+@media screen and (max-width:480px)
+{
+    body
+    {
+        background-color: rgb(22, 22, 22);
+        font-family: 'Patrick Hand', cursive;
+        font-size: 15pt;
+        font-weight: bold;
+    }
+    .first
+    {
+        float:none;
+        width:100%;
+        margin-top: 1%;
+        text-align: center;
+    }
+    .first img
+    {
+        width:45%;
+    }
+    .first2
+    {
+        float:none;
+        width:100%;
+        margin-top: 4%;
+        padding:1%;
+        text-align: center;
+    }
+    .first2 a{ padding-right: 40px;}
+    .foot1
+    {
+        padding:3px;    
+        float:left;
+        width:39%;
+    }
+    .foot1 p {
+        display: contents;
+        width: 0%;
+        
+    }
+    .first2 a
+    {
+        display: inline-block;
+        justify-content: space-evenly;
+       text-align: center;
+       padding-left: 8%;
+       padding-right: 8%;
+    }
+    #cslide
+    {
+        margin: 0 auto;
+        width:75%;
+        height:300px;
+    }
+    .footer{
+        display: flex;
+    }
+    .foot2{
+        width: 100%;
+        height: 10%;
+      
+       
+    }
+}

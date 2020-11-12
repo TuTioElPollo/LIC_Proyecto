@@ -1,0 +1,204 @@
+#fotosEspa
+{
+    margin:0;
+    padding:1%;
+    text-align: center;
+    background: linear-gradient(#5c3821de ,rgb(49, 29, 13) 60%);
+    overflow: hidden;
+}
+
+.espas
+{
+    position:relative;
+    float:left;
+    width:48%;
+}
+.espas2
+{
+    position:relative;
+    float:right;
+    width:48%;
+}
+.espas img, .espas2 img
+{
+    width:80%;
+    height:300px;
+    border-radius: 5%;
+}
+h3
+{
+    color:white;
+}
+#text1
+{
+    color:rgb(204, 176, 19);
+}
+@media screen and (max-width: 480px){
+    .primarios{
+        text-align: center;
+        display: inline;
+        margin-left: 1%;
+        margin-right: 1%;
+        padding-left: 1%;
+        padding-right: 1%;
+
+
+    }
+    #fotosEspa .espas .titulo{
+       padding-left: 65%;
+       padding-right: 65%;
+    }
+    #fotosEspa .espas2 .titulo{
+        padding-left: 65%;
+        padding-right: 65%;
+        text-align: left;
+     }
+    .first2 a{
+        display: inline-block;
+        justify-content: space-evenly;
+       text-align: center;
+       padding-left: 8%;
+       padding-right: 8%;
+       
+    }
+    #fotosEspa
+    {
+        margin:0;
+        
+        padding-left:2%;
+        padding-right: 2%;
+        padding-bottom: 1%;
+        text-align: center;
+        background-color:#5c3821de;
+        overflow: hidden;
+    }
+   .espas,.espas2{
+       
+       text-align: center;
+       display: block;
+       position: unset;
+       float: none;
+       margin-left: 2%;
+        
+   }
+   .titulo {
+    font-size: 200%;
+    display: inline-block;
+       
+       padding: 2%;
+       margin: 1;
+   }
+   .espas img, .espas2 img
+{
+    width:200%;
+    height:300px;
+    border-radius: 5%;
+}
+.foot1{
+    padding-top: 2%;
+}
+.foot1,p{
+    float: none;
+    text-align: left;
+    width: 60%;
+    
+}
+#fotosEspa #text1{
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+#fotosEspa .titulo{
+    width: 100;
+    
+}
+
+
+}
+@media (min-width: 481px) and (max-width: 720px) {
+    #fotosEspa #text1{
+        margin-left: 25%;
+        margin-top: 5%;
+        margin-bottom: 0;
+    }
+    #fotosEspa #espas .titulo{
+        margin-right: 0%;
+    }
+    #fotosEspa #espas2 .titulo{
+        margin-left: 25%;
+    }
+
+    
+
+@media (min-width: 721px) and (max-width: 1080px) {
+    .primarios{
+        text-align: center;
+        display: inline;
+        margin-left: 1%;
+        margin-right: 1%;
+        padding-left: 1%;
+        padding-right: 1%;
+
+
+    }
+    .first2 a{
+        display: inline-block;
+        justify-content: space-evenly;
+       text-align: center;
+       padding-left: 15%;
+       padding-right: 10%;
+       
+    }
+    #fotosEspa
+    {
+        margin:15%;
+        padding-left:2%;
+        padding-right: 2%;
+        text-align: center;
+        background-color:#5c3821de;
+        overflow: hidden;
+    }
+   .espas,.espas2{
+       
+       text-align: center;
+       display: block;
+       position: fixed;
+       float: none;   
+        
+   }
+   .titulo {
+    font-size: 200%;
+    display: inline-block;
+       text-align: center;
+       padding: 2%;
+       margin: 1;
+   }
+   .espas img, .espas2 img
+{
+    width:150%;
+    height:150px;
+    border-radius: 10%;
+  margin: inherit;
+  
+}
+
+.foot1,p{
+    float: none;
+    text-align: left;
+    width: 50%;
+    
+}
+    
+.titulo {
+  text-align: center;
+  font-size: 14px;
+    }
+    
+    .tit2 {
+      font-size: 12px;
+      text-align: center;
+    }
+    
+    
+  }
+}
