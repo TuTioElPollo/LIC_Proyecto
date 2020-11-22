@@ -1,10 +1,12 @@
 #Integrantes{
     color: white;
     text-align: center;
+    background-color: aquamarine;
 }
-#primaryS
+#primarySe
 {
     margin:0;
+    background-color: aquamarine;
     background:linear-gradient(#5c3821de,rgb(49,29,13) 80%);
     overflow: hidden;
     color: white;
