@@ -11,6 +11,7 @@
         <link rel="stylesheet" type="text/css" href="CSS/EstiloSucursal.css"/>
         <link rel="stylesheet" type="text/css" href="CSS/Estilocontact.css"/>
         <link rel="stylesheet" type="text/css" href="CSS/EstiloReserva.css"/>
+        <script src="js/filternumbers.js"></script>
     </head>
     <body>
         <nav>
@@ -30,7 +31,7 @@
                 <div class="form2">
                     <form>
                         <p>Nombre:</p>
-                        <input type="text" placeholder="Ingrese su nombre" name="nombre" class="reserv3" autofocus/>
+                        <input type="text" placeholder="Ingrese su nombre" name="nombre" onkeypress="return sololetras(event)" class="reserv3" autofocus/>
                         <p>Seleccione el espacio:</p>
                         <select name="espacio" class="reserv3">
                             <option value="Jardín">Jardín</option>
@@ -39,7 +40,7 @@
                             <option value="Vista al mar">Vista al mar</option>
                         </select>
                         <p>Número de personas:</p>
-                        <input type="text" placeholder="Ingrese el número de personas" name="nombre" class="reserv3"/>
+                        <input type="text" placeholder="Ingrese el número de personas" name="nombre" onkeypress="return numbersOnly(this, event)" class="reserv3"/>
                         <p>Día y Fecha:</p>
                         <input type="date" name="nombre" class="reserv3"/>
                     </form>
@@ -53,7 +54,7 @@
                         <p>Correo electrónico:</p>
                         <input type="text" placeholder="Ingrese el correo electrónico" name="nombre" class="reserv3"/>
                         <p>Número telefónico:</p>
-                        <input type="text" placeholder="Ingrese el número de personas" name="nombre" class="reserv3"/>
+                        <input type="text" placeholder="Ingrese el número de telefono" onkeypress="return numbersOnly(this, event)" name="nombre" class="reserv3"/>
                         <p></p>
                         <input type="submit" placeholder="Enviar" name="envío" class="reserv3"/>
                     </form>

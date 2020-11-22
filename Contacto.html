@@ -10,6 +10,7 @@
         <link rel="stylesheet" type="text/css" href="CSS/Estilo.css"/>
         <link rel="stylesheet" type="text/css" href="CSS/EstiloSucursal.css"/>
         <link rel="stylesheet" type="text/css" href="CSS/Estilocontact.css"/>
+        <script src="js/filternumbers.js"></script>
     </head>
     <body>
         <nav>
@@ -30,11 +31,11 @@
                     <p>Para contactarte con nosotros, llena la siguiente información y nos comunicaremos contigo a la brevedad posible.</p>
                     <form>
                         <p>Ingrese su nombre</p>
-                        <input type="text" placeholder="Escribe tu nombre" maxlength="50" nambre="nombre" class="form1" autofocus/>
+                        <input type="text" placeholder="Escribe tu nombre" onkeypress="return sololetras(event)" maxlength="50" nambre="nombre" class="form1" autofocus/>
                         <p>Ingrese su correo electrónico</p>
                         <input type="email" placeholder="Correo electrónico" name="correo" class="form1"/>
                         <p>Ingrese su número de teléfono</p>
-                        <input type="tel" placeholder="Número de teléfono" name="teléfono" class="form1"/>
+                        <input type="tel" placeholder="Número de teléfono" name="teléfono" onkeypress="return numbersOnly(this, event)" class="form1"/>
                         <p></p>
                         <input type="submit" placeholder="Enviar" name="envío" class="form1"/>
                         <p id="contact">Contáctanos también por</p>
