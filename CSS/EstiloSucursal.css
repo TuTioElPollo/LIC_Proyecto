@@ -6,7 +6,7 @@ nav
 #primaryS
 {
     margin:0;
-    background-color:#5c3821de;
+    background:linear-gradient(#5c3821de,rgb(49,29,13) 80%);
     overflow: hidden;
 }
 nav .first2 .primarios{

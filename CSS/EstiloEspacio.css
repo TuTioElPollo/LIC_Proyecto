@@ -6,7 +6,12 @@
     background: linear-gradient(#5c3821de ,rgb(49, 29, 13) 60%);
     overflow: hidden;
 }
-
+#primaryS
+{
+    margin:0;
+    background:linear-gradient(#5c3821de,rgb(49,29,13) 80%);
+    overflow: hidden;
+}
 .espas
 {
     position:relative;

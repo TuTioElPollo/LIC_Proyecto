@@ -8,6 +8,12 @@
 {
     color:rgb(204, 176, 19)
 }
+#primaryS
+{
+    margin:0;
+    background:linear-gradient(#5c3821de,rgb(49,29,13) 80%);
+    overflow: hidden;
+}
 @media screen and (max-width:480px){
     .foot1,p{
         float: none;
