@@ -1,6 +1,6 @@
-# LIC_Proyecto
-webada de lic
-
-## Mucho texto by
-###This is a example of text in README.md
-ALEJANDRO PACHECO 
+# **YA TERMINEMOS ESTA WEA XD**
+*Este fue un proyecto realizado en conjunto para la materia*
+> Lenguajes Interpretados con el Cliente.
+##### En este proyecto solo trabajaron
+- Alejandro Pacheco
+- TuTioElPollo
