@@ -2,10 +2,30 @@
     color: white;
     text-align: center;
 }
+body{
+    margin: 0;
+}
 #primaryS
 {
     margin:0;
-    background:linear-gradient(#5c3821de,rgb(49,29,13) 80%);
+    border-top: solid black 3px;
+    background:linear-gradient(#311c0fde,rgb(75, 45, 20) 80%);
     overflow: hidden;
     color: white;
+}
+.Tit-Des{
+    text-align: center;
+}
+.Tit-Des h2{
+    font-size: 2.2rem;
+    color:transparent;
+    background: linear-gradient(yellow,red);
+    -webkit-background-clip: text;
+}
+.foot2 img{
+    width: 35%;
+    height: 35%;
+}
+.foot2{
+    justify-content: center;
 }
