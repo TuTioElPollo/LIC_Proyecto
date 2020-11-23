@@ -26,40 +26,60 @@
                 <a href="desarrolladores.html" class="primarios">Desarrolladores</a>
             </div> 
         </nav>
+        <script>
+         function Comprobar(obj)
+          {
+             if ( !obj.Opciones[0].checked && 
+             !obj.Opciones[1].checked &&
+             !obj.Opciones[2].checked)
+          {
+                alert("Debe elegir una opción")
+                return false;
+          }
+                return true 
+          }  
+            onload = function(){ 
+                    var ele = document.querySelectorAll('.validanumericos')[0];
+                    ele.onkeypress = function(e) {
+                     if(isNaN(this.value+String.fromCharCode(e.charCode)))
+                     return false;
+                     }
+                     ele.onpaste = function(e){
+                          e.preventDefault();
+                        }
+                            }
+
+                        </script>
          <div id="primaryS">
             <div id="Reserv1">
-                <div id="formu" name="form2" method="POST" onsubmit="return Comprobar(this)" action= "mailto:davideliasamaya2001@gmail.com?subject=asunto" enctype="text/plain" >
-                    <form>
+                <div id="formu">
+                    <form  name="form1" method="POST" onsubmit="return
+        Comprobar(this)" action= "mailto:pacheco29alejandro@gmail.com?subject=Reserva" enctype ="text/plain" >
                         <p>Nombre:</p>
-                        <input type="text" placeholder="Ingrese su nombre" name="nombre" onkeypress="return sololetras(event)" class="reserv3" autofocus />
+                        <input type="text" placeholder="Ingrese su nombre" name="Nombre" onkeypress="return sololetras(event)" class="reserv3" autofocus />
                         <p>Seleccione el espacio:</p>
-                        <select name="espacio" class="reserv3">
-                            <option value="Jardín">Jardín</option>
+                        <select name="Espacio" class="reserv3">
+                            <option value="Jardín" selected>Jardín</option>
                             <option value="Principal">Principal</option>
                             <option value="Balcón">Balcón</option>
                             <option value="Vista al mar">Vista al mar</option>
                         </select>
                         <p>Número de personas:</p>
-                        <input type="text" placeholder="Ingrese el número de personas" name="nombre"  class="reserv3" type=text
+                        <input  type="text" placeholder="Ingrese el número de personas" name="Numero de personas"  class="reserv3" type=text
                          onkeypress="return numbersOnly(this, event)" />
                         <p>Día y Fecha:</p>
-                        <input type="date" name="nombre" class="reserv3"/>
-                          
-                    </form>
-                </div>
-            </div> 
-            <div id="Reserv2">
-                <div class="form2">
-                    <form>
+                        <input type="date" name="Dia y Fecha" class="reserv3"/>
+
                         <p>Hora de reservación:</p>
-                        <input type="time" name="nombre" class="reserv3"/>
+                        <input type="time" name="Hora de reservacion" class="reserv3"/>
                         <p>Correo electrónico:</p>
-                        <input type="text" placeholder="Ingrese el correo electrónico" name="nombre" class="reserv3"/>
+                        <input type="text" placeholder="Ingrese el correo electrónico" name="Correo electronico" class="reserv3"/>
                         <p>Número telefónico:</p>
-                        <input type="text" placeholder="Ingrese el número de telefono" name="nombre"  class="reserv3" type=text
+                        <input type="text" placeholder="Ingrese el número de telefono" name="Numero de telefono"  class="reserv3" type=text
                          onkeypress="return numbersOnly(this, event)" />
                         <p></p>
-                        <input type="submit" placeholder="Enviar" name="envío" class="reserv3"/>
+                        <input type="submit" placeholder="Enviar" class="reserv3"/>
+                        <input type="reset" name="Reset" value="Borrar">
                     </form>
                 </div>
             </div>
@@ -73,31 +93,6 @@
             <div class="foot2">
                 <img src="CSS/img/logo-png-white.png" style="width:35%;height:35%;"/>
             </div>
-        </footer>
-             <script>
-                                                         function Comprobar(obj)
-                                                      {
-                                                      if ( !obj.Opciones[0].checked && 
-                                                           !obj.Opciones[1].checked &&
-                                                   !obj.Opciones[2].checked)
-                                                  {
-                                                   alert("Debe elegir una opción")
-                                                   return false;
-                                                  }
-                                              return true 
-                                              }  
-                                              onload = function(){ 
-                                                var ele = document.querySelectorAll('.validanumericos')[0];
-                                                ele.onkeypress = function(e) {
-                                                 if(isNaN(this.value+String.fromCharCode(e.charCode)))
-                                                 return false;
-                                                 }
-                                                 ele.onpaste = function(e){
-                                                      e.preventDefault();
-                                                    }
-                                                        }
-                        </script>
-                    
-                        
+        </footer>         
     </body>
 </html>

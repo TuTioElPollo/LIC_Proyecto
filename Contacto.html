@@ -12,6 +12,29 @@
         <link rel="stylesheet" type="text/css" href="CSS/Estilocontact.css"/>
         <link rel="stylesheet" type="text/js" href="js/filternumbers.js"/>
         <script src="js/filternumbers.js"></script>
+        <script>
+                 function Comprobar(obj)
+              {
+              if ( !obj.Opciones[0].checked && 
+                   !obj.Opciones[1].checked &&
+           !obj.Opciones[2].checked)
+          {
+           alert("Debe elegir una opción")
+           return false;
+          }
+      return true 
+      }  
+      onload = function(){ 
+        var ele = document.querySelectorAll('.validanumericos')[0];
+        ele.onkeypress = function(e) {
+         if(isNaN(this.value+String.fromCharCode(e.charCode)))
+         return false;
+         }
+         ele.onpaste = function(e){
+              e.preventDefault();
+            }
+                }
+        </script>
     </head>
     <body>
         <nav>
@@ -29,15 +52,16 @@
 
         <div id="primaryS">
             <div id="FirstToReserv">
-                <div id="formu" name="form1" method="POST" onsubmit="return Comprobar(this)" action= "mailto:vane.urrutia1@gmail.com?subject=asunto" enctype="text/plain" >
+                <div id="formu" name="form1">
                     <p>Para contactarte con nosotros, llena la siguiente información y nos comunicaremos contigo a la brevedad posible.</p>
-                    <form>
+                    <form  name="form1" method="POST" onsubmit="return
+        Comprobar(this)" action= "mailto:pacheco29alejandro@gmail.com?subject=Contatar" enctype ="text/plain" >
                         <p>Ingrese su nombre</p>
-                        <input name="nombre" type="text" onkeypress="return sololetras(event)" placeholder="Escribe tu nombre" maxlength="50" class="form1" autofocus/>
+                        <input name="Nombre" type="text" onkeypress="return sololetras(event)" placeholder="Escribe tu nombre" maxlength="50" class="form1" autofocus/>
                         <p>Ingrese su correo electrónico</p>
-                        <input type="email" placeholder="Correo electrónico" name="correo" class="form1"/>
+                        <input type="email" placeholder="Correo electrónico" name="Correo" class="form1"/>
                         <p>Ingrese su número de teléfono</p>
-                        <input type="tel" id="txtserial" placeholder="Número de teléfono" name="teléfono"  class="form1" type=text
+                        <input type="tel" id="txtserial" placeholder="Número de teléfono" name="Telefono"  class="form1" type=text
                          onkeypress="return numbersOnly(this, event)" />
                         <p></p>
                         <input type="submit" placeholder="Enviar" name="Submit" class="form1" value="Enviar" />
@@ -45,31 +69,6 @@
                         <p><img src="CSS/img/smartphone.png"/>2255-0752</p>
                         <p><img src="CSS/img/whatsapp (1).png"/>6200-7840</p>
                         <p><a href="https://www.facebook.com/huelic.elsalvador.1"><img src="CSS/img/facebook (1).png" alt="facebook" width="65px"></a>Huelíc SV</p>
-                        <script>
-                                                         function Comprobar(obj)
-                                                      {
-                                                      if ( !obj.Opciones[0].checked && 
-                                                           !obj.Opciones[1].checked &&
-                                                   !obj.Opciones[2].checked)
-                                                  {
-                                                   alert("Debe elegir una opción")
-                                                   return false;
-                                                  }
-                                              return true 
-                                              }  
-                                              onload = function(){ 
-                                                var ele = document.querySelectorAll('.validanumericos')[0];
-                                                ele.onkeypress = function(e) {
-                                                 if(isNaN(this.value+String.fromCharCode(e.charCode)))
-                                                 return false;
-                                                 }
-                                                 ele.onpaste = function(e){
-                                                      e.preventDefault();
-                                                    }
-                                                        }
-                        </script>
-                    
-
 
                     </form>
                 </div>
