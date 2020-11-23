@@ -52,7 +52,7 @@ function sololetras(e){
 
    teclado = String.fromCharCode(key).toLowerCase();
 
-   letras = " abcdefghijklmnopqrstuvwxyz";
+   letras = " abcdefghijklmnñopqrstuvwxyz";
 
    especiales = "8-37-38-46-164";
 
