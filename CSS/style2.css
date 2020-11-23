@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Patrick+Hand&family=Yanone+Kaffeesatz:wght@500&display=swap');
 
 nav{
     background-image: url(/images/background.jpg);
@@ -14,9 +15,9 @@ nav{
 }
 
 .nav-item{
-    margin-left: 10px;
     transition: border-bottom .3s ease-out;
     transition-delay: .1s;
+    
 }
 
 .navbar-nav{
@@ -24,14 +25,14 @@ nav{
 }
 
 .navbar-collapse{
-    margin-left: 37%;
+    margin-left: 40%;
 }
 
 .nav-link{
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: 22px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20pt;
+    font-weight: bold;
     color: white;
-    font-weight: 500;
     vertical-align: middle;
     text-decoration: none;
 }
@@ -55,7 +56,7 @@ nav{
 .options-container{
     background-color: rgba(241, 235, 235, 0.664);
     border-radius: 10px;
-    margin-top: 35px;
+    margin-top: 42px;
 }
 
 .menu-label{
@@ -109,7 +110,7 @@ nav{
 
 
 .food-container{
-    height: 473px;
+    height: 485px;
     margin: 25px;
     margin-bottom: 25px;
     background-color: rgba(241, 235, 235, 0.664);
@@ -181,4 +182,20 @@ footer{
     .food-container{
         float: none;
     }
+}
+
+.infoFood{
+    margin-left: 20px ;
+    height: 160px; 
+    width: 210px; 
+    background-color: rgb(223, 153, 84);
+    border-radius: 10px;
+}
+
+.foodText{
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 16pt;
+    font-weight: bold;
+    color: white;
 }
