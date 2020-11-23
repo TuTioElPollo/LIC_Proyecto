@@ -1,7 +1,111 @@
 #Integrantes{
-    color: white;
+    color: black;
     text-align: center;
-    background-color: aquamarine;
+    padding-bottom: 10%;
+    display: contents;
+}
+.int1{
+    float: left;
+    width: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: black solid 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    background-color: #e0e0e0;
+}
+.int1 img{
+    padding-top: 10px;
+    border-radius: 30px;
+}
+.int1 p{
+    color: black;
+}
+.desc1{
+    color: black;
+    padding-bottom: 0px;
+}
+.int2{
+    float: left;
+    width: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: black solid 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    background-color: #e0e0e0;
+}
+.int2 img{
+    padding-top: 10px;
+    border-radius: 30px;
+}
+.int2 p{
+    color: black;
+}
+.desc2{
+    padding-bottom: 25px;
+}
+.int3{
+    float: left;
+    width: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: black solid 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    background-color: #e0e0e0;
+}
+.int3 img{
+    padding-top: 10px;
+    border-radius: 30px;
+}
+.int3 p{
+    color: black;
+}
+.desc3{
+    padding-bottom: 25px;
+}
+.int4{
+    float: right;
+    width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: black solid 4px;
+    margin-left: 30px;
+    margin-right: 230px;
+    margin-top: 25px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    background-color: #e0e0e0;
+}
+.int4 img{
+    padding-top: 10px;
+    border-radius: 30px;
+}
+.int4 p{
+    color: black;
+}
+.int5{
+    float: left;
+    width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: black solid 4px;
+    margin-left: 200px;
+    margin-right: 30px;
+    border-radius: 20px;
+    margin-top: 25px;
+    background-color: #e0e0e0;
+}
+.int5 img{
+    padding-top: 10px;
+    border-radius: 30px;
+}
+.int5 p{
+    color: black;
 }
 body{
     margin: 0;
@@ -12,13 +116,14 @@ body{
     border-top: solid black 3px;
     background:linear-gradient(#311c0fde,rgb(75, 45, 20) 80%);
     overflow: hidden;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .Tit-Des{
     text-align: center;
 }
+
 .Tit-Des h2{
-    font-size: 2.2rem;
+    font-size: 3rem;
     color:transparent;
     background: linear-gradient(yellow,red);
     -webkit-background-clip: text;
@@ -29,4 +134,83 @@ body{
 }
 .foot2{
     justify-content: center;
+}
+@media screen and (max-width: 720px){
+    .int1{
+        float: none;
+        padding-left:8px;
+        padding-right:8px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .int2{
+        float: none;
+        padding-left:8px;
+        padding-right:8px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .int3{
+        float: none;
+        padding-left:8px;
+        padding-right:8px;
+        margin-left:auto;
+        margin-right:auto;
+        
+    }
+    .int4{
+        float: none;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .int5{
+        float: none;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .foot2{
+        width: 55%;
+        height: 100%;
+    }
+}
+@media (min-width: 721px) and (max-width: 1080px){
+    .int1{
+        float: left;
+        padding-left:8px;
+        padding-right:8px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .int2{
+        float: right;
+        padding-left:8px;
+        padding-right:8px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .int3{
+        float: left;
+        margin-top:30px;
+        padding-left:2px;
+        padding-right:2px;
+        margin-left:auto;
+        margin-right:auto;
+        
+    }
+    .int4{
+        float: right;
+        padding-left:2px;
+        padding-right:2px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .int5{
+        margin-bottom: 20px;
+    }
+    .desc2{
+        margin-bottom: 75px;
+    }
+    .desc3{
+        margin-bottom: 50px;
+    }
 }
