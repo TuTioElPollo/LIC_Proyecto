@@ -4,3 +4,5 @@
 ##### En este proyecto solo trabajaron
 - Alejandro Pacheco
 - TuTioElPollo
+-Kirugameplays
+-Alemau97
